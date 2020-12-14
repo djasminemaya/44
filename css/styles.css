@@ -1,0 +1,40 @@
+body{
+
+
+background-image: url("imag/3.jpg");
+background-size: cover;
+    
+    
+
+}
+.p{
+
+    text-align: center;
+    font: italic;
+  text-transform: capitalize;
+    font-size: 40px;
+    animation-name: chogimg;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes chogimg{
+    0%{color: black;  }
+    25%{color: tomato;  }
+    50%{color: royalblue;   }
+    75%{color: teal ;}
+    100%{color:gray ;   }
+   
+}
+img{
+    width: 190px;
+    height: 190px;
+    border-radius: 150px;
+   
+}
+.imag{
+    top: 45%;
+    position: absolute;
+    left: 38%;
+ 
+}
+
